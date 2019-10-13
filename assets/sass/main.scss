@@ -631,6 +631,11 @@
 				&:first-child {
 					padding-left: 0;
 				}
+				
+			}
+			&.icons {
+				display: flex;
+				justify-content: space-evenly;
 			}
 		}
 
