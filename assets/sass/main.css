@@ -169,7 +169,7 @@ sup {
 hr {
   border: 0;
   border-top: solid 1px rgba(224, 224, 224, 0.75);
-  margin-bottom: 0.3em;
+  margin-bottom: 1.5em;
 }
 
 blockquote {
@@ -1853,10 +1853,6 @@ ul.actions.special {
 ul.actions.special li:first-child {
   padding-left: 0;
 }
-ul.actions.special.icons {
-  display: flex;
-  justify-content: space-around;
-}
 ul.actions.stacked {
   -moz-flex-direction: column;
   -webkit-flex-direction: column;
@@ -2092,7 +2088,7 @@ input[type=button].small,
 /* Feature */
 .feature {
   position: relative;
-  height: 23em;
+  height: 20em;
 }
 .feature:after {
   clear: both;
@@ -2127,9 +2123,6 @@ input[type=button].small,
   padding: 3.5em;
   vertical-align: middle;
   width: 48%;
-}
-.feature .content a :hover {
-  text-decoration: underline;
 }
 .feature .content h3 {
   margin-bottom: 0.5em;
@@ -2229,11 +2222,6 @@ input[type=button].small,
   margin: 0 0 0.75em 0;
   text-align: center;
   width: 2.35em;
-}
-#header .logo img {
-  border-radius: 50%;
-  width: 115px;
-  height: 115px;
 }
 #header .logo.fa-paper-plane-o:before {
   left: -0.075em;
