@@ -2231,13 +2231,10 @@ input[type=button].small,
   width: 2.35em;
 }
 #header .logo img {
+  margin: 0 auto;
   border-radius: 50%;
   width: 115px;
   height: 115px;
-}
-#header .logo.fa-paper-plane-o:before {
-  left: -0.075em;
-  position: relative;
 }
 #header h1 {
   font-size: 2.5em;
@@ -2387,6 +2384,10 @@ input[type=button].small,
   #header {
     padding: 8em 0 16em 0;
   }
+  #header .logo {
+    padding: 0;
+    margin-left: -1%;
+  }
   #header h1 {
     font-size: 2.25em;
   }
@@ -2480,9 +2481,20 @@ input[type=button].small,
   body, input, select, textarea {
     font-size: 12pt;
   }
+
+  #header .logo {
+    padding: 0;
+    margin-left: -2%;
+  }
 }
 /* Narrower */
 @media screen and (max-width: 840px) {
+  /* Header for image placement */
+  #header .logo {
+    padding: 0;
+    margin-left: -2%;
+  }
+
   /* Section/Article */
   header.major {
     padding-left: 2em;
@@ -2508,6 +2520,9 @@ input[type=button].small,
   /* Section/Article */
   header p {
     font-size: 0.8em;
+  }
+  header img {
+    margin: 0 auto;
   }
   header.major {
     margin-bottom: 2em;
@@ -2571,6 +2586,8 @@ input[type=button].small,
   }
   #header .logo {
     font-size: 1.5em;
+    padding: 0;
+    margin-left: -7%;
   }
   #header h1 {
     font-size: 1.25em;
