@@ -2446,6 +2446,9 @@ input[type=button].small,
     background-size: 1600px 230px, auto, cover;
     padding: 6em 0 12em 0;
   }
+  #header .logo {
+    margin-left: -2%;
+  }
   #header:before {
     height: calc(100% - 25px);
   }
@@ -2484,15 +2487,14 @@ input[type=button].small,
 
   #header .logo {
     padding: 0;
-    margin-left: -2%;
+    margin-left: -3%;
   }
 }
 /* Narrower */
 @media screen and (max-width: 840px) {
   /* Header for image placement */
   #header .logo {
-    padding: 0;
-    margin-left: -2%;
+    margin-left: -3.5%;
   }
 
   /* Section/Article */
@@ -2520,9 +2522,6 @@ input[type=button].small,
   /* Section/Article */
   header p {
     font-size: 0.8em;
-  }
-  header img {
-    margin: 0 auto;
   }
   header.major {
     margin-bottom: 2em;
@@ -2585,9 +2584,8 @@ input[type=button].small,
     height: 20px;
   }
   #header .logo {
-    font-size: 1.5em;
     padding: 0;
-    margin-left: -7%;
+    margin-left: -5%;
   }
   #header h1 {
     font-size: 1.25em;
