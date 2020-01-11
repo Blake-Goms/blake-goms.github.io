@@ -5,17 +5,87 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,8 +94,17 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -33,14 +112,18 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before, blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -64,7 +147,9 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -76,18 +161,23 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
   background: #ffffff;
 }
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+body.is-preload *,
+body.is-preload *:before,
+body.is-preload *:after {
   -moz-animation: none !important;
   -webkit-animation: none !important;
   -ms-animation: none !important;
@@ -98,7 +188,10 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   transition: none !important;
 }
 
-body, input, select, textarea {
+body,
+input,
+select,
+textarea {
   color: #6e6e6e;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16pt;
@@ -119,20 +212,33 @@ a:hover {
   border-bottom-color: transparent;
 }
 
-strong, b {
+strong,
+b {
   font-weight: 600;
   color: #5b5b5b;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
-p, ul, ol, dl, table, blockquote, form {
+p,
+ul,
+ol,
+dl,
+table,
+blockquote,
+form {
   margin: 0 0 2em 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #5b5b5b;
   font-weight: 700;
   letter-spacing: 0.125em;
@@ -141,7 +247,12 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-align: center;
 }
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: inherit;
   text-decoration: none;
 }
@@ -1515,7 +1626,8 @@ blockquote {
 }
 
 /* Section/Article */
-section.special, article.special {
+section.special,
+article.special {
   text-align: center;
 }
 
@@ -1950,7 +2062,8 @@ ul.icons li {
 ul.icons li:first-child {
   padding-left: 0;
 }
-ul.icons li a, ul.icons li span {
+ul.icons li a,
+ul.icons li span {
   -moz-transition: background-color 0.2s ease-in-out;
   -webkit-transition: background-color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out;
@@ -1963,7 +2076,8 @@ ul.icons li a, ul.icons li span {
   text-align: center;
   width: 2em;
 }
-ul.icons li a:hover, ul.icons li span:hover {
+ul.icons li a:hover,
+ul.icons li span:hover {
   background: rgba(224, 224, 224, 0.15);
 }
 
@@ -2099,7 +2213,10 @@ input[type=button].small,
   content: "";
   display: block;
 }
-.feature h3, .feature h4, .feature h5, .feature h6 {
+.feature h3,
+.feature h4,
+.feature h5,
+.feature h6 {
   text-align: inherit;
 }
 .feature .image {
@@ -2151,7 +2268,7 @@ input[type=button].small,
   padding-right: 0;
 }
 .feature.right {
-  text-align: right;
+  text-align: left;
 }
 .feature.right .image {
   float: right;
@@ -2204,10 +2321,16 @@ input[type=button].small,
   border-bottom-color: transparent;
   color: #4eb980;
 }
-#header strong, #header b {
+#header strong,
+#header b {
   color: #ffffff;
 }
-#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
+#header h1,
+#header h2,
+#header h3,
+#header h4,
+#header h5,
+#header h6 {
   color: #ffffff;
 }
 #header input[type=submit],
@@ -2256,10 +2379,10 @@ input[type=button].small,
   background-size: 3200px 460px;
   color: rgba(255, 255, 255, 0.8);
   /*
-  	Since the SVG background occupies a lot of vertical space, we'll
-  	add additional top padding (to move our content out of its way)
-  	and a negative margin (to move everything up a bit).
-  */
+  		Since the SVG background occupies a lot of vertical space, we'll
+  		add additional top padding (to move our content out of its way)
+  		and a negative margin (to move everything up a bit).
+  	*/
   margin-top: -260px;
   padding: calc(460px + 6em) 0 10em 0;
   position: relative;
@@ -2278,10 +2401,16 @@ input[type=button].small,
 #footer a {
   color: #ffffff;
 }
-#footer strong, #footer b {
+#footer strong,
+#footer b {
   color: #ffffff;
 }
-#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+#footer h1,
+#footer h2,
+#footer h3,
+#footer h4,
+#footer h5,
+#footer h6 {
   color: #ffffff;
 }
 #footer header p {
@@ -2332,10 +2461,12 @@ input[type=button].small,
   margin: 0;
   border: 0;
 }
-#footer .copyright li a, #footer .copyright li span {
+#footer .copyright li a,
+#footer .copyright li span {
   color: inherit;
 }
-#footer .copyright li a:hover, #footer .copyright li span:hover {
+#footer .copyright li a:hover,
+#footer .copyright li span:hover {
   color: #ffffff;
 }
 
@@ -2363,7 +2494,10 @@ input[type=button].small,
 /* Wide */
 @media screen and (max-width: 1680px) {
   /* Basic */
-  body, input, select, textarea {
+  body,
+input,
+select,
+textarea {
     font-size: 14pt;
   }
 
@@ -2399,7 +2533,10 @@ input[type=button].small,
 /* Normal */
 @media screen and (max-width: 1280px) {
   /* Basic */
-  body, input, select, textarea {
+  body,
+input,
+select,
+textarea {
     font-size: 13pt;
   }
 
@@ -2481,7 +2618,10 @@ input[type=button].small,
 /* Narrow */
 @media screen and (max-width: 980px) {
   /* Basic */
-  body, input, select, textarea {
+  body,
+input,
+select,
+textarea {
     font-size: 12pt;
   }
 
